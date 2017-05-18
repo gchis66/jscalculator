@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+        </head>
+        <title></title>
+            <body>
+                <div class="calculator">
+                    <div id="outputdisplay" class="output"></div>
+                    <div class="allbuttons">
+                        <div class="operators">
+                            <button name="digit" class="yo">-</button>
+                            <button name="digit" class="yo">+</button>
+                            <button name="digit" class="yo">*</button>
+                            <button name="digit" class="yo">/</button>
+                        </div>
+                        <div class="leftPanel">
+                            <div class="numbers">
+                                <button name ="digit" class="yo">7</button>
+                                <button name ="digit" class="yo">8</button>
+                                <button name ="digit" class="yo">9</button>
+                            </div>
+                            <div class="numbers">
+                                <button name ="digit" class="yo">4</button>
+                                <button name ="digit" class="yo">5</button>
+                                <button name ="digit" class="yo">6</button>
+                            </div>
+                            <div class="numbers">
+                                <button name ="digit" class="yo">1</button>
+                                <button name ="digit" class="yo">2</button>
+                                <button name ="digit" class="yo">3</button>
+                            </div>
+                            <div class="numbers">
+                            <button name ="digit" class="yo">0</button>
+                            <button name ="digit" class="yo">.</button>
+                            <button id = "clear" class="yo">C</button>
+                        </div>
+                        </div>
+                        <div class="equalsign"><button class="yoequal" onclick="outputdisplay.innerHTML= eval(outputdisplay.innerHTML)">=</button></div>
+                    </div>
+                </div>
+                <div class="footer">Designed by <a href="www.gregorychisholm.com" target="_blank">Gregory Chisholm</a></div>
+            </body>
+        <script type="text/javascript" src="script.js"></script>
+    
+</html>
